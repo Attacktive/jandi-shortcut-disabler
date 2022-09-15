@@ -1,0 +1,29 @@
+{
+	"name": "jandi-shortcut-disabler",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --config webpack/webpack.config.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Attacktive/jandi-shortcut-disabler.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Attacktive/jandi-shortcut-disabler/issues"
+	},
+	"homepage": "https://github.com/Attacktive/jandi-shortcut-disabler#readme",
+	"devDependencies": {
+		"@types/chrome": "^0.0.196",
+		"copy-webpack-plugin": "^11.0.0",
+		"ts-loader": "^9.3.1",
+		"typescript": "^4.8.3",
+		"webpack": "^5.74.0",
+		"webpack-cli": "^4.10.0"
+	}
+}
