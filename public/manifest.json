@@ -8,10 +8,14 @@
 	"content_scripts": [{
 		"matches": ["https://*.jandi.com/*"],
 		"run_at": "document_idle",
-		"js": ["jquery-3.6.1.min.js", "contentScript.js"]
+		"js": ["contentScript.js"]
 	}],
 	"action": {},
 	"permissions": ["tabs", "activeTab", "scripting"],
 	"incognito": "spanning",
-	"offline_enabled": true
+	"offline_enabled": true,
+	"web_accessible_resources": [{
+		"resources": ["inject.js"],
+		"matches": ["https://*.jandi.com/*"]
+	}]
 }
