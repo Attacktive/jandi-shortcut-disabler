@@ -2,7 +2,6 @@
 	"name": "jandi-shortcut-disabler",
 	"version": "1.0.0",
 	"description": "This disables those \"evil\" shortcuts Jandi provides.",
-	"main": "index.js",
 	"scripts": {
 		"build": "webpack --config webpack/webpack.config.js"
 	},
