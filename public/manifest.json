@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Jandi Shortcut Disabler",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "This disables those \"evil\" shortcuts Jandi provides such as Ctrl + 1, Alt + 2, etc.",
 	"author": "Attacktive",
 	"homepage_url": "https://github.com/Attacktive/jandi-shortcut-disabler",
@@ -10,7 +10,6 @@
 		"run_at": "document_idle",
 		"js": ["contentScript.js"]
 	}],
-	"action": {},
 	"permissions": ["scripting"],
 	"incognito": "spanning",
 	"offline_enabled": true,
