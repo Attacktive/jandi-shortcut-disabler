@@ -1,7 +1,7 @@
 {
 	"name": "jandi-shortcut-disabler",
-	"version": "1.0.0",
-	"description": "This disables those \"evil\" shortcuts Jandi provides.",
+	"version": "0.0.4",
+	"description": "This disables those \"evil\" shortcuts Jandi provides such as Ctrl + 1, Alt + 2, etc.",
 	"scripts": {
 		"build": "webpack --config webpack/webpack.config.js"
 	},
@@ -9,8 +9,8 @@
 		"type": "git",
 		"url": "git+https://github.com/Attacktive/jandi-shortcut-disabler.git"
 	},
-	"author": "",
-	"license": "ISC",
+	"author": "Attacktive",
+	"license": "MIT license",
 	"bugs": {
 		"url": "https://github.com/Attacktive/jandi-shortcut-disabler/issues"
 	},
