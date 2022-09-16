@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "Jandi Shortcut Disabler",
+	"version": "0.0.1",
+	"description": "This disables those \"evil\" shortcuts Jandi provides.",
+	"author": "Attacktive",
+	"homepage_url": "https://github.com/Attacktive/jandi-shortcut-disabler",
+	"content_scripts": [{
+		"matches": ["https://*.jandi.com/*"],
+		"run_at": "document_idle",
+		"js": ["contentScript.js"]
+	}],
+	"action": {},
+	"permissions": ["tabs", "activeTab", "scripting"],
+	"incognito": "spanning",
+	"offline_enabled": true,
+	"web_accessible_resources": [{
+		"resources": ["inject.js"],
+		"matches": ["https://*.jandi.com/*"]
+	}]
+}
