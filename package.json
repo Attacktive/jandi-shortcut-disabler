@@ -1,17 +1,15 @@
 {
 	"name": "jandi-shortcut-disabler",
 	"version": "1.0.0",
-	"description": "",
+	"description": "This disables those \"evil\" shortcuts Jandi provides.",
 	"main": "index.js",
 	"scripts": {
-		"build": "webpack --config webpack/webpack.config.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"build": "webpack --config webpack/webpack.config.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Attacktive/jandi-shortcut-disabler.git"
 	},
-	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
