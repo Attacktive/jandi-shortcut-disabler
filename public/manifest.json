@@ -7,7 +7,7 @@
 	"homepage_url": "https://github.com/Attacktive/jandi-shortcut-disabler",
 	"default_locale": "en",
 	"content_scripts": [{
-		"matches": ["https://*.jandi.com/*"],
+		"matches": ["https://*.jandi.com/app/*"],
 		"run_at": "document_idle",
 		"js": ["contentScript.js"]
 	}],
