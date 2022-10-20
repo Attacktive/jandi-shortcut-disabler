@@ -1,6 +1,6 @@
 {
 	"name": "jandi-shortcut-disabler",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"description": "It prevents Jandi from intercepting those common key bindings such as Ctrl + 1, Alt + 2, etc.",
 	"scripts": {
 		"build": "webpack --config webpack/webpack.config.js"
