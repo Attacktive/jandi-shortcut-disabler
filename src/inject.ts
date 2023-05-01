@@ -1,15 +1,15 @@
 import EventHandler = JQuery.EventHandler;
 
-type EventHandlerContainer = {
-	data: object | undefined,
-	guid: number,
-	handler: EventHandler<any>,
-	namespace: string,
-	needsContext: boolean | undefined,
-	origType: string,
-	selector: string | undefined,
-	type: string
-};
+interface EventHandlerContainer {
+	data: object | undefined;
+	guid: number;
+	handler: EventHandler<Window>;
+	namespace: string;
+	needsContext: boolean | undefined;
+	origType: string;
+	selector: string | undefined;
+	type: string;
+}
 
 /*
  * `_data` is an internal function which is undocumented.
