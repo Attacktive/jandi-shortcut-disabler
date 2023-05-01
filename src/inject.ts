@@ -1,14 +1,7 @@
 import EventHandler = JQuery.EventHandler;
 
 interface EventHandlerContainer {
-	data: object | undefined;
-	guid: number;
 	handler: EventHandler<Window>;
-	namespace: string;
-	needsContext: boolean | undefined;
-	origType: string;
-	selector: string | undefined;
-	type: string;
 }
 
 /*
