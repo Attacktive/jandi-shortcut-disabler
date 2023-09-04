@@ -16,7 +16,7 @@
 	},
 	"homepage": "https://github.com/Attacktive/jandi-shortcut-disabler#readme",
 	"devDependencies": {
-		"@types/chrome": "^0.0.244",
+		"@types/chrome": "^0.0.245",
 		"@types/jquery": "^3.5.18",
 		"copy-webpack-plugin": "^11.0.0",
 		"ts-loader": "^9.4.4",
