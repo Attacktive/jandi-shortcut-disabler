@@ -1,5 +1,3 @@
-import $ from "jquery";
-
 import EventHandler = JQuery.EventHandler;
 
 // @ts-expect-error: `_data` is an internal function which is undocumented.
