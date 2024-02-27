@@ -4,7 +4,8 @@
 	"description": "It prevents Jandi from intercepting those common key bindings such as Ctrl + 1, Alt + 2, etc.",
 	"type": "module",
 	"scripts": {
-		"build": "webpack --config webpack/webpack.config.mjs"
+		"build": "webpack --config webpack/webpack.config.mjs",
+		"lint": "eslint"
 	},
 	"repository": {
 		"type": "git",
@@ -18,8 +19,12 @@
 	"homepage": "https://github.com/Attacktive/jandi-shortcut-disabler#readme",
 	"devDependencies": {
 		"@types/chrome": "^0.0.262",
+		"@types/eslint": "^8.56.3",
 		"@types/jquery": "^3.5.29",
+		"@typescript-eslint/eslint-plugin": "^7.1.0",
+		"@typescript-eslint/parser": "^7.1.0",
 		"copy-webpack-plugin": "^12.0.2",
+		"eslint": "^8.57.0",
 		"ts-loader": "^9.5.1",
 		"typescript": "^5.3.3",
 		"webpack": "^5.90.3",
