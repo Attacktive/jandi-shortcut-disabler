@@ -1,4 +1,3 @@
-import $ from "jquery";
 import EventHandler = JQuery.EventHandler;
 
 interface EventHandlerContainer {
