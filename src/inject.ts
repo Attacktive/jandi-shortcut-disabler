@@ -10,7 +10,7 @@ interface EventHandlers {
 }
 
 interface JQueryExtension extends JQueryStatic {
-	_data(element: Window | Document, key: string): EventHandlers | undefined;
+	_data: (element: Window | Document, key: string) => EventHandlers | undefined;
 }
 
 const jQueryExtension = ($ as unknown as JQueryExtension);
