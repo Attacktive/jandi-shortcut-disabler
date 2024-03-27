@@ -4,7 +4,8 @@
 	"description": "It prevents Jandi from intercepting those common key bindings such as Ctrl + 1, Alt + 2, etc.",
 	"type": "module",
 	"scripts": {
-		"build": "webpack --config webpack/webpack.config.mjs",
+		"build": "tsc --build",
+		"postbuild": "cp -r static/* dist",
 		"lint": "eslint"
 	},
 	"repository": {
@@ -23,11 +24,7 @@
 		"@types/jquery": "^3.5.29",
 		"@typescript-eslint/eslint-plugin": "^7.4.0",
 		"@typescript-eslint/parser": "^7.4.0",
-		"copy-webpack-plugin": "^12.0.2",
 		"eslint": "^8.57.0",
-		"ts-loader": "^9.5.1",
-		"typescript": "^5.4.3",
-		"webpack": "^5.91.0",
-		"webpack-cli": "^5.1.4"
+		"typescript": "^5.4.3"
 	}
 }
