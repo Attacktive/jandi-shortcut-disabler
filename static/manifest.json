@@ -9,12 +9,12 @@
 	"content_scripts": [{
 		"matches": ["https://*.jandi.com/app/*"],
 		"run_at": "document_idle",
-		"js": ["contentScript.js"]
+		"js": ["js/contentScript.js"]
 	}],
 	"incognito": "spanning",
 	"offline_enabled": true,
 	"web_accessible_resources": [{
-		"resources": ["inject.js"],
+		"resources": ["js/inject.js"],
 		"matches": ["https://*.jandi.com/*"]
 	}],
 	"icons": {
