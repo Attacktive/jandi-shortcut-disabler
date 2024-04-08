@@ -16,7 +16,7 @@ const jQueryExtension = ($ as unknown as JQueryExtension);
 
 // https://blog.jquery.com/2011/11/08/building-a-slimmer-jquery/
 const keydownEventsOnWindow = jQueryExtension._data(window, "events")?.keydown;
-if (keydownEventsOnWindow) {
+if (Array.isArray(keydownEventsOnWindow)) {
 	keydownEventsOnWindow.forEach(({ handler }: { handler: EventHandler<Window> }) => {
 		console.debug(`About to remove keydown event listener: ${handler}`);
 		$(window).off("keydown", handler);
