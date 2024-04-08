@@ -1,6 +1,6 @@
 {
 	"name": "jandi-shortcut-disabler",
-	"version": "1.1.7",
+	"version": "1.1.8",
 	"description": "It prevents Jandi from intercepting those common key bindings such as Ctrl + 1, Alt + 2, etc.",
 	"type": "module",
 	"scripts": {
@@ -19,7 +19,7 @@
 	},
 	"homepage": "https://github.com/Attacktive/jandi-shortcut-disabler#readme",
 	"devDependencies": {
-		"@types/chrome": "^0.0.265",
+		"@types/chrome": "^0.0.266",
 		"@types/eslint": "^8.56.7",
 		"@types/jquery": "^3.5.29",
 		"@typescript-eslint/eslint-plugin": "^7.5.0",
