@@ -23,7 +23,7 @@
 		"@types/eslint": "^9.6.0",
 		"@types/jquery": "^3.5.30",
 		"@typescript-eslint/eslint-plugin": "^8.2.0",
-		"@typescript-eslint/parser": "^8.2.0",
+		"@typescript-eslint/parser": "^8.3.0",
 		"eslint": "^9.9.1",
 		"typescript": "^5.5.4",
 		"typescript-eslint": "^8.2.0"
