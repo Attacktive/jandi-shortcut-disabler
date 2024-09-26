@@ -21,7 +21,7 @@
 	"devDependencies": {
 		"@types/chrome": "^0.0.272",
 		"@types/eslint": "^9.6.1",
-		"@types/jquery": "^3.5.30",
+		"@types/jquery": "^3.5.31",
 		"@typescript-eslint/eslint-plugin": "^8.7.0",
 		"@typescript-eslint/parser": "^8.7.0",
 		"eslint": "^9.11.1",
