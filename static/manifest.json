@@ -18,5 +18,10 @@
 	}],
 	"icons": {
 		"128": "j.png"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "d74bb1cd548961743f66e995f17670e6b4606664@attacktive.xyz"
+		}
 	}
 }
