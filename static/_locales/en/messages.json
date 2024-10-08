@@ -1,10 +1,10 @@
 {
 	"appName": {
 		"message": "Jandi Shortcut Disabler",
-		"description": "The name of the extension, displayed in the web store."
+		"description": "The name of the extension, displayed in the Chrome web store / Firefox ADD-ONS."
 	},
-	"appDesc": {
+	"appDescription": {
 		"message": "It prevents Jandi from intercepting those common key bindings such as Ctrl + 1, Alt + 2, etc.",
-		"description": "The description of the extension, displayed in the web store."
+		"description": "The description of the extension, displayed in the Chrome web store / Firefox ADD-ONS."
 	}
 }
