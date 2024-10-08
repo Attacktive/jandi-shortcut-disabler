@@ -22,7 +22,7 @@ jobs:
       - name: 'Build'
         run: 'npm run build'
       - name: 'Archive Artifacts'
-        run: 'zip jandi-shortcut-disabler.zip * -r'
+        run: 'zip jandi-shortcut-disabler.zip dist/* -r'
       - name: 'Create Release'
         uses: 'softprops/action-gh-release@v2'
         with:
