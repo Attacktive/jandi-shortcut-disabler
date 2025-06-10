@@ -6,4 +6,4 @@
 It prevents [Jandi](https://www.jandi.com) from intercepting those common key bindings such as <kbd>Ctrl</kbd>+<kbd>1</kbd>, <kbd>Alt</kbd>+<kbd>2</kbd>, etc.
 
 - [Chrome Extension](https://chromewebstore.google.com/detail/jandi-shortcut-disabler/ecbfmclbpfgjogeicfcigmplhnnlhfpg)
-- [Firefox ADD-ON](https://addons.mozilla.org/en-US/firefox/addon/jandi-shortcut-disabler)
+- [Firefox ADD-ON](https://addons.mozilla.org/firefox/addon/jandi-shortcut-disabler)
