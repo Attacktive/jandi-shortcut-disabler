@@ -20,7 +20,7 @@
 	"homepage": "https://github.com/Attacktive/jandi-shortcut-disabler#readme",
 	"devDependencies": {
 		"@eslint/js": "^9.35.0",
-		"@types/chrome": "^0.1.11",
+		"@types/chrome": "^0.1.12",
 		"@types/eslint": "^9.6.1",
 		"@types/firefox-webext-browser": "^120.0.4",
 		"@types/jquery": "^3.5.33",
