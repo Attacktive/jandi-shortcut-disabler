@@ -24,11 +24,11 @@
 		"@types/eslint": "^9.6.1",
 		"@types/firefox-webext-browser": "^143.0.0",
 		"@types/jquery": "^4.0.0",
-		"@typescript-eslint/eslint-plugin": "^8.58.2",
-		"@typescript-eslint/parser": "^8.58.2",
+		"@typescript-eslint/eslint-plugin": "^8.59.0",
+		"@typescript-eslint/parser": "^8.59.0",
 		"eslint": "^10.2.1",
 		"globals": "^17.5.0",
 		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.58.2"
+		"typescript-eslint": "^8.59.0"
 	}
 }
